@@ -2,7 +2,7 @@
  * Creado por SharpDevelop.
  * Usuario: juant
  * Fecha: 28/11/2025
- * Hora: 07:16 p. m.
+ * Hora: 07:17 p. m.
  * 
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace CALIFICACIONSHARP
 {
 	/// <summary>
-	/// Description of MENUPRINCIPAL.
+	/// Description of Form2.
 	/// </summary>
-	public partial class MENUPRINCIPAL : Form
+	public partial class Form2 : Form
 	{
-		public MENUPRINCIPAL()
+		public Form2()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.

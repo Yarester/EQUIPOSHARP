@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace CALIFICACIONSHARP
 {
 	/// <summary>
-	/// Description of MENUPRINCIPAL.
+	/// Description of Form1.
 	/// </summary>
-	public partial class MENUPRINCIPAL : Form
+	public partial class Form1 : Form
 	{
-		public MENUPRINCIPAL()
+		public Form1()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
