@@ -28,5 +28,14 @@ namespace CALIFICACIONSHARP
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void SALIRToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			if(MessageBox.Show("¿DESEA SALIR?","Confirmar Salir",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+			{
+			Application.Exit();
+
+			}
+		}
 	}
 }
