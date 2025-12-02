@@ -71,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CONTRASEÑA.resx">
+      <DependentUpon>CONTRASEÑA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MENUPRINCIPAL.resx">
       <DependentUpon>MENUPRINCIPAL.cs</DependentUpon>
     </EmbeddedResource>

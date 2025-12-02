@@ -29,5 +29,58 @@ namespace CALIFICACIONSHARP
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void TxtuserEnter(object sender, EventArgs e)
+		{
+			if( txtuser.Text == "USUARIO" )
+			{
+				txtuser.Text = "";
+				txtuser.ForeColor=Color.Black;
+			}
+		}
+		
+		void TxtuserLeave(object sender, EventArgs e)
+		{
+			if( txtuser.Text == "" )
+			{
+				txtuser.Text = "USUARIO";
+				txtuser.ForeColor=Color.Black;
+			}
+		}
+		
+		void TxtpassEnter(object sender, EventArgs e)
+		{
+			if( txtpass.Text == "CONTRASEÑA" )
+			{
+				txtpass.Text = "";
+				txtpass.ForeColor=Color.Black;
+				txtpass.UseSystemPasswordChar=true;
+			}
+		}
+		
+		void TxtpassLeave(object sender, EventArgs e)
+		{
+			if( txtpass.Text == "" )
+			{
+				txtpass.Text = "CONTRASEÑA";
+				txtpass.ForeColor=Color.Black;
+				txtpass.UseSystemPasswordChar=true;
+			}
+		}
+		
+		void BtnCerrarClick(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
+		
+		void BtnAceptarClick(object sender, EventArgs e)
+		{
+			if(txtpass.Text=="12345" && txtuser.Text=="Admin")
+			{
+				MENUPRINCIPAL f = new MENUPRINCIPAL();
+				f.Show();
+				this.Hide();
+			}
+		}
 	}
 }
